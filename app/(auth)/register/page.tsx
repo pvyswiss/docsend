@@ -3,13 +3,13 @@ import { Metadata } from "next";
 import RegisterClient from "./page-client";
 
 const data = {
-  description: "Signup to Papermark",
+  description: "Signup to PVYdataroom",
   title: "Sign up | Papermark",
   url: "/register",
 };
 
 export const metadata: Metadata = {
-  metadataBase: new URL("https://www.papermark.com"),
+  metadataBase: new URL("https://docsend.pvy.swiss"),
   title: data.title,
   description: data.description,
   openGraph: {

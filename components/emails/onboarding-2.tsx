@@ -31,7 +31,7 @@ const Onboarding2Email = () => {
               There are many ways how you can protect your documents!
             </Text>
             <Text className="text-sm">
-              With Papermark you can use different link settings for shared
+              With PVYdataroom you can use different link settings for shared
               documents and data rooms:
             </Text>
             <ul className="list-inside list-disc text-sm">

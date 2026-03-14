@@ -214,7 +214,7 @@ export default function Settings() {
               <CardFooter className="flex items-center justify-between rounded-b-lg border-t bg-muted px-6 py-6">
                 <p className="text-sm text-muted-foreground transition-colors">
                   Used to identify your dataroom when interacting with the
-                  Papermark API.
+                  PVYdataroom API.
                 </p>
               </CardFooter>
             </Card>

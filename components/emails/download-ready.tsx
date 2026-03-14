@@ -60,7 +60,7 @@ export default function DownloadReady({
             <Text className="text-sm leading-6 text-black">
               {isViewer
                 ? "Click the button below to open your downloads page and get your files."
-                : "Click the button below to download your files. You'll need to be logged in to your Papermark account to access the download."}
+                : "Click the button below to download your files. You'll need to be logged in to your PVYdataroom account to access the download."}
             </Text>
 
             <Section className="my-8 text-center">
@@ -87,7 +87,7 @@ export default function DownloadReady({
             <Text className="text-sm leading-6 text-black">
               Best,
               <br />
-              The Papermark Team
+              The PVYdataroom Team
             </Text>
             <Footer
               footerText={

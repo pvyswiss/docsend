@@ -58,7 +58,7 @@ export default function ExportReady({
             <Text className="text-sm leading-6 text-black">
               Best,
               <br />
-              The Papermark Team
+              The PVY.swiss Team
             </Text>
             <Footer
               footerText={

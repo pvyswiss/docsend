@@ -339,7 +339,7 @@ export function YearlyRecapModal({
 · ${stats?.totalViews?.toLocaleString()} views
 · ${countriesCount} countries
 
-My Papermark Wrapped ${stats?.year}!
+My PVYdataroom Wrapped ${stats?.year}!
 
 #PapermarkWrapped https://www.papermark.com/`;
   };
@@ -475,7 +475,7 @@ My Papermark Wrapped ${stats?.year}!
           <p className="mb-4 px-4 text-center text-xs text-muted-foreground sm:px-6 sm:text-sm">
             Share your stats and receive{" "}
             <span className="font-semibold text-orange-600">$50</span> in
-            credits on your papermark account, please send confirmation to{" "}
+            credits on your PVYdataroom account, please send confirmation to{" "}
             <span className="font-medium">support@papermark.com</span> and
             include screenshot or link to your post.
           </p>
@@ -864,7 +864,7 @@ function ShareOfferSlide({ stats }: { stats: YearlyRecapStats }) {
       </div>
 
       <p className="mt-6 max-w-sm text-balance px-2 text-xs text-muted-foreground sm:mt-8 sm:max-w-none sm:px-0 sm:text-sm">
-        You will receive $50 in credits on your papermark account, please send
+        You will receive $50 in credits on your PVYdataroom account, please send
         confirmation to{" "}
         <span className="font-medium">support@papermark.com</span> and include
         screenshot or link to your post.

@@ -32,7 +32,7 @@ const Onboarding4Email = () => {
             <Text className="text-sm">
               Look professional with custom branding!
             </Text>
-            <Text className="text-sm">With Papermark you can:</Text>
+            <Text className="text-sm">With PVYdataroom you can:</Text>
             <ul className="list-inside list-disc text-sm">
               <li>
                 Share documnets with your <strong>custom domain💫</strong>{" "}

@@ -65,7 +65,7 @@ export default function PapermarkYearInReviewEmail({
               </Heading>
               <Text className="mb-8 text-lg leading-8">
                 What a year it&apos;s been! Let&apos;s take a look at how
-                you&apos;ve used Papermark to share your important documents.
+                you&apos;ve used PVYdataroom to share your important documents.
               </Text>
               <Link
                 href={`https://x.com/intent/post?text=In%202024%2C%20my%20documents%20have%20been%20viewed%20${minutesSpentOnDocs}%20minutes%20on%20%40papermarkio%2C%20by%3A%0A%0A%E2%80%A2%20Uploading%20${uploadedDocuments}%20documents%0A%E2%80%A2%20Sharing%20${sharedLinks}%20links%0A%E2%80%A2%20Receiving%20${receivedViews}%20views%0A%0A&url=https%3A%2F%2Fwww.papermark.com%2Fyear-in-review`}
@@ -228,7 +228,7 @@ export default function PapermarkYearInReviewEmail({
             <Section className="pb-6 text-center">
               <Text className="text-xl leading-8 text-gray-900">
                 We&apos;re excited to support you next year! <br />
-                Happy Holidays from the Papermark team :)
+                Happy Holidays from the PVYdataroom team :)
               </Text>
               <Link
                 href={`https://x.com/intent/post?text=In%202024%2C%20my%20documents%20have%20been%20viewed%20${minutesSpentOnDocs}%20minutes%20on%20%40papermarkio%2C%20by%3A%0A%0A%E2%80%A2%20Uploading%20${uploadedDocuments}%20documents%0A%E2%80%A2%20Sharing%20${sharedLinks}%20links%0A%E2%80%A2%20Receiving%20${receivedViews}%20views%0A%0A&url=https%3A%2F%2Fwww.papermark.com%2Fyear-in-review`}
@@ -269,12 +269,12 @@ export default function PapermarkYearInReviewEmail({
                   className="text-gray-400 no-underline"
                   target="_blank"
                 >
-                  papermark.com
+                  dataroom.pvy.swiss
                 </a>
               </Text>
               <Text className="text-xs">
                 You received this Year in Review email because you have an
-                account with Papermark during 2024. If you have any feedback or
+                account with PVYdataroom. If you have any feedback or
                 questions about this email, simply reply to it. To unsubscribe
                 from future Year in Review emails,{" "}
                 <a

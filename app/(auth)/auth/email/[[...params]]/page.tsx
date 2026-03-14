@@ -3,13 +3,13 @@ import { Metadata } from "next";
 import EmailVerificationClient from "./page-client";
 
 const data = {
-  description: "Verify your login to Papermark",
+  description: "Verify your login to PVYdataroom",
   title: "Verify Login | Papermark",
   url: "/auth/email",
 };
 
 export const metadata: Metadata = {
-  metadataBase: new URL("https://www.papermark.com"),
+  metadataBase: new URL("https://docsend.pvy.swiss"),
   title: data.title,
   description: data.description,
   openGraph: {

@@ -291,7 +291,7 @@ export function UpgradePlanModal({
                 target="_blank"
                 className="underline-offset-4 transition-all hover:text-gray-800 hover:underline hover:dark:text-muted-foreground/80"
               >
-                Looking for Papermark Enterprise?
+                Looking for PVYdataroom Enterprise?
               </a>
             )}
           </div>

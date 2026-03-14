@@ -36,7 +36,7 @@ const VerificationCodeEmail = ({
               Your login code
             </Heading>
             <Text className="text-sm leading-6 text-neutral-600">
-              Enter this code to sign in to your Papermark account:
+              Enter this code to sign in to your PVYdataroom account:
             </Text>
             <Section className="my-6">
               <Text

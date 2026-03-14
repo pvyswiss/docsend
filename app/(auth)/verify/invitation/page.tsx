@@ -19,7 +19,7 @@ const data = {
 };
 
 export const metadata: Metadata = {
-  metadataBase: new URL("https://www.papermark.com"),
+  metadataBase: new URL("https://docsend.pvy.swiss"),
   title: data.title,
   description: data.description,
   openGraph: {
@@ -100,7 +100,7 @@ export default async function VerifyInvitationPage({
             <div className="flex flex-col items-center justify-center space-y-3 px-4 py-6 pt-8 text-center sm:px-16">
               <Link href="/">
                 <span className="text-balance text-2xl font-semibold text-gray-800">
-                  Welcome to Papermark
+                  Welcome to PVYdataroom
                 </span>
               </Link>
               {!isExpired && !isRevoked && (
@@ -148,7 +148,7 @@ export default async function VerifyInvitationPage({
                 </div>
                 <p className="mt-10 w-full max-w-md px-4 text-xs text-muted-foreground sm:px-16">
                   By accepting this invitation, you acknowledge that you have
-                  read and agree to Papermark&apos;s{" "}
+                  read and agree to PVYdataroom&apos;s{" "}
                   <a
                     href={`${process.env.NEXT_PUBLIC_MARKETING_URL}/terms`}
                     target="_blank"
@@ -191,7 +191,7 @@ export default async function VerifyInvitationPage({
                   <blockquote className="text-l text-balance leading-8 text-gray-100 sm:text-xl sm:leading-9">
                     <p>
                       True builders listen to their users and build what they
-                      need. Thanks Papermark team for solving a big pain point.
+                      need. Thanks PVYdataroom team for solving a big pain point.
                       DocSend monopoly will end soon!
                     </p>
                   </blockquote>

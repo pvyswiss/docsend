@@ -35,7 +35,7 @@ export function EmailUpdated({
               Your email address has been changed
             </Text>
             <Text className="text-sm leading-6 text-black">
-              The email address for your Papermark account has been changed from{" "}
+              The email address for your PVYdataroom account has been changed from{" "}
               <strong>{oldEmail}</strong> to <strong>{newEmail}</strong>.
             </Text>
             <Text className="text-sm leading-6 text-black">

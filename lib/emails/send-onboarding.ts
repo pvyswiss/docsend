@@ -27,7 +27,7 @@ export const sendOnboardingEmail = async (
   switch (emailType) {
     case "onboarding1":
       emailTemplate = Onboarding1Email();
-      subject = "Day 1 with Papermark - Turn your documents into links";
+      subject = "Day 1 with PVYdataroom - Turn your documents into links";
       break;
     case "onboarding2":
       emailTemplate = Onboarding2Email();
@@ -47,7 +47,7 @@ export const sendOnboardingEmail = async (
       break;
     default:
       emailTemplate = Onboarding1Email();
-      subject = "Day 1 with Papermark - Turn your documents into links";
+      subject = "Day 1 with PVYdataroom - Turn your documents into links";
       break;
   }
 

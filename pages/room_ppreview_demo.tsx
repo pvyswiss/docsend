@@ -8,7 +8,7 @@ import {
   createViewerSurfaceTheme,
 } from "@/components/view/viewer/viewer-surface-theme";
 
-const DEFAULT_BANNER_IMAGE = "/_static/papermark-banner.png";
+const DEFAULT_BANNER_IMAGE = "/_static/banner.png";
 
 export default function ViewPage() {
   const router = useRouter();

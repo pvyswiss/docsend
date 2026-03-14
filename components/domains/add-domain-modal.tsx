@@ -65,7 +65,7 @@ const STATUS_CONFIG: Record<
   },
   "has site": {
     suffix:
-      "is currently pointing to an existing website. Only proceed if you're sure you want to use this domain for Papermark links.",
+      "is currently pointing to an existing website. Only proceed if you're sure you want to use this domain for PVYdataroom links.",
     icon: InfoIcon,
     className: "bg-blue-100 text-blue-800",
   },

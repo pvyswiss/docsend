@@ -14,7 +14,7 @@ import {
 } from "lucide-react";
 import { motion } from "motion/react";
 
-import PapermarkLogo from "@/public/_static/papermark-logo.svg";
+import PapermarkLogo from "@/public/_static/logo.svg";
 
 import { Button } from "@/components/ui/button";
 

@@ -49,7 +49,7 @@ const ProfilePage: NextPage = () => {
           />
           <Form
             title="Your Email"
-            description="This will be the email you use to log in to Papermark and receive notifications. A confirmation is required for changes."
+            description="This will be the email you use to log in to PVYdataroom and receive notifications. A confirmation is required for changes."
             inputAttrs={{
               name: "email",
               placeholder: "name@example.com",

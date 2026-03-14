@@ -25,7 +25,7 @@ const SubscriptionRenewalReminderEmail = ({
   return (
     <Html>
       <Head />
-      <Preview>Your Papermark subscription renews soon</Preview>
+      <Preview>Your PVYdataroom subscription renews soon</Preview>
       <Tailwind>
         <Body className="mx-auto my-auto bg-white font-sans text-sm">
           <Container className="mx-auto my-10 w-[465px] p-5">

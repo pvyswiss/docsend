@@ -28,7 +28,7 @@ const SixMonthMilestoneEmail = ({
           <Text>What&apos;s been your biggest win using Papermark?</Text>
           <Text>
             Marc here. It&apos;s been 6 months since you using advanced
-            Papermark features! Excited to hear your story and feedback for us.
+            PVYdataroom features! Excited to hear your story and feedback for us.
           </Text>
 
           <Text>Marc</Text>

@@ -31,7 +31,7 @@ const Onboarding3Email = () => {
               You need to know who viewed your documents!
             </Text>
             <Text className="text-sm">
-              With Papermark you can track progress on each page of your
+              With PVYdataroom you can track progress on each page of your
               document and other analytics:
             </Text>
             <ul className="list-inside list-disc text-sm">

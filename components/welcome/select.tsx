@@ -241,7 +241,7 @@ export default function Select() {
           {showDealTypeOptions && (
             <div className="space-y-3">
               <p className="text-sm font-medium text-muted-foreground">
-                What do you use Papermark for?
+                What do you use PVYdataroom for?
               </p>
               <div className="flex flex-wrap justify-center gap-2">
                 {DEAL_TYPE_OPTIONS.map((option) => (
@@ -269,7 +269,7 @@ export default function Select() {
           {showOtherInput && !dealType && (
             <div className="space-y-3">
               <p className="text-sm font-medium text-muted-foreground">
-                What do you use Papermark for?
+                What do you use PVYdataroom for?
               </p>
               <div className="flex items-center justify-center gap-2">
                 <input

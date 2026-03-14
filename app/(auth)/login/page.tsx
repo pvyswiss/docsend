@@ -5,13 +5,13 @@ import { GTMComponent } from "@/components/gtm-component";
 import LoginClient from "./page-client";
 
 const data = {
-  description: "Login to Papermark",
+  description: "Login to PVYdataroom",
   title: "Login | Papermark",
   url: "/login",
 };
 
 export const metadata: Metadata = {
-  metadataBase: new URL("https://www.papermark.com"),
+  metadataBase: new URL("https://docsend.pvy.swiss"),
   title: data.title,
   description: data.description,
   openGraph: {

@@ -281,7 +281,7 @@ export default function DomainCard({
                 <p className="mt-1 text-xs text-muted-foreground">
                   Redirect visitors who land on{" "}
                   <span className="font-medium">{domain}</span> to a specific
-                  URL. Leave empty to redirect to papermark.com.
+                  URL. Leave empty to redirect to dataroom.pvy.swiss
                 </p>
                 <div className="mt-3 flex items-center gap-2">
                   <Input

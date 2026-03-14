@@ -789,7 +789,7 @@ export default function UpgradeHolidayOfferPage() {
           rel="noopener noreferrer"
           className="text-sm text-muted-foreground underline-offset-4 hover:text-foreground hover:underline"
         >
-          Looking for Papermark Enterprise?
+          Looking for PVYdataroom Enterprise?
         </a>
       </div>
     </div>

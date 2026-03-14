@@ -33,7 +33,7 @@ const Onboarding1Email = () => {
               It all starts from sharing your first document!
             </Text>
             <Text className="text-sm">
-              With Papermark you can upload different kind of documents and turn
+              With PVYdataroom you can upload different kind of documents and turn
               them into shareable links:
             </Text>
             <ul className="list-inside list-disc text-sm">

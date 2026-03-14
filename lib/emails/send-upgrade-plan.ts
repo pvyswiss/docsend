@@ -23,7 +23,7 @@ export const sendUpgradePlanEmail = async (
   try {
     await sendEmail({
       to: email as string,
-      subject: `Thank you for upgrading to Papermark ${planTypeText}!`,
+      subject: `Thank you for upgrading to PVYdataroom ${planTypeText}!`,
       react: emailTemplate,
       test: process.env.NODE_ENV === "development",
     });

@@ -38,7 +38,7 @@ const DataroomTrialEnd = ({ name }: DataroomTrialEnd) => {
               Hey{name && ` ${name}`}!
             </Text>
             <Text className="text-sm leading-6 text-black">
-              Your Papermark Data Room trial has expired.
+              Your PVYdataroom Data Room trial has expired.
               <br />
               <Link
                 href={`https://app.papermark.com/settings/billing`}

@@ -10,8 +10,8 @@ export const getTotalAvgPageDuration = tb.buildPipe({
   pipe: "get_total_average_page_duration__v5",
   parameters: z.object({
     documentId: z.string(),
-    excludedLinkIds: z.string().describe("Comma separated linkIds"),
-    excludedViewIds: z.string().describe("Comma separated viewIds"),
+    excludedLinkIds: z.string(),
+    excludedViewIds: z.string(),
     since: z.number(),
   }),
   data: z.object({
@@ -39,7 +39,7 @@ export const getViewCompletionStats = tb.buildPipe({
   pipe: "get_view_completion_stats__v1",
   parameters: z.object({
     documentId: z.string(),
-    excludedViewIds: z.string().describe("Comma separated viewIds"),
+    excludedViewIds: z.string(),
     since: z.number(),
   }),
   data: z.object({
@@ -53,8 +53,8 @@ export const getTotalDocumentDuration = tb.buildPipe({
   pipe: "get_total_document_duration__v1",
   parameters: z.object({
     documentId: z.string(),
-    excludedLinkIds: z.string().describe("Comma separated linkIds"),
-    excludedViewIds: z.string().describe("Comma separated viewIds"),
+    excludedLinkIds: z.string(),
+    excludedViewIds: z.string(),
     since: z.number(),
     until: z.number().optional(),
   }),
@@ -68,7 +68,7 @@ export const getTotalLinkDuration = tb.buildPipe({
   parameters: z.object({
     linkId: z.string(),
     documentId: z.string(),
-    excludedViewIds: z.string().describe("Comma separated viewIds"),
+    excludedViewIds: z.string(),
     since: z.number(),
     until: z.number().optional(),
   }),
@@ -81,7 +81,7 @@ export const getTotalLinkDuration = tb.buildPipe({
 export const getTotalViewerDuration = tb.buildPipe({
   pipe: "get_total_viewer_duration__v1",
   parameters: z.object({
-    viewIds: z.string().describe("Comma separated viewIds"),
+    viewIds: z.string(),
     since: z.number(),
     until: z.number().optional(),
   }),
@@ -138,7 +138,7 @@ export const getDocumentDurationPerViewer = tb.buildPipe({
   pipe: "get_document_duration_per_viewer__v1",
   parameters: z.object({
     documentId: z.string(),
-    viewIds: z.string().describe("Comma separated viewIds"),
+    viewIds: z.string(),
   }),
   data: z.object({
     sum_duration: z.number(),
@@ -153,7 +153,7 @@ export const getWebhookEvents = tb.buildPipe({
   data: z.object({
     event_id: z.string(),
     webhook_id: z.string(),
-    message_id: z.string(), // QStash message ID
+    message_id: z.string(),
     event: z.enum(WEBHOOK_TRIGGERS),
     url: z.string(),
     http_status: z.number(),
@@ -216,7 +216,7 @@ export const getClickEventsByView = tb.buildPipe({
 export const getDataroomViewDocumentStats = tb.buildPipe({
   pipe: "get_dataroom_view_document_stats__v1",
   parameters: z.object({
-    viewIds: z.string().describe("Comma separated viewIds"),
+    viewIds: z.string(),
   }),
   data: z.object({
     viewId: z.string(),
@@ -229,7 +229,7 @@ export const getDataroomViewDocumentStats = tb.buildPipe({
 export const getTotalTeamDuration = tb.buildPipe({
   pipe: "get_total_team_duration__v1",
   parameters: z.object({
-    documentIds: z.string().describe("Comma separated documentIds"),
+    documentIds: z.string(),
     since: z.number(),
     until: z.number(),
   }),

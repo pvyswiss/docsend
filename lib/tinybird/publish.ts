@@ -45,7 +45,7 @@ export const recordWebhookEvent = tb.buildIngestEndpoint({
   event: z.object({
     event_id: z.string(),
     webhook_id: z.string(),
-    message_id: z.string(), // QStash message ID
+    message_id: z.string(),
     event: z.enum(WEBHOOK_TRIGGERS),
     url: z.string(),
     http_status: z.number(),
@@ -95,7 +95,6 @@ export const recordVideoView = tb.buildIngestEndpoint({
   }),
 });
 
-// Click event tracking when user clicks a link within a document
 export const recordClickEvent = tb.buildIngestEndpoint({
   datasource: "click_events__v1",
   event: z.object({
@@ -112,7 +111,6 @@ export const recordClickEvent = tb.buildIngestEndpoint({
   }),
 });
 
-// Event track when a visitor opens a link
 export const recordLinkViewTB = tb.buildIngestEndpoint({
   datasource: "pm_click_events__v1",
   event: z.object({
@@ -128,7 +126,7 @@ export const recordLinkViewTB = tb.buildIngestEndpoint({
     region: z.string().optional().default("Unknown"),
     latitude: z.string().optional().default("Unknown"),
     longitude: z.string().optional().default("Unknown"),
-    device: z.string().optional().default("Desktop"),
+    device: z.string().optional().default("Unknown"),
     device_model: z.string().optional().default("Unknown"),
     device_vendor: z.string().optional().default("Unknown"),
     browser: z.string().optional().default("Unknown"),

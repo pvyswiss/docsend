@@ -117,7 +117,7 @@ export default function EmailVerificationClient() {
             <div className="items-left flex flex-col space-y-3 px-4 py-6 pt-8 sm:px-12">
               <Link href="https://www.papermark.com" target="_blank">
                 <img
-                  src="/_static/papermark-logo.svg"
+                  src="/_static/logo.svg"
                   alt="Papermark Logo"
                   className="-mt-8 mb-36 h-7 w-auto self-start sm:mb-32 md:mb-48"
                 />
@@ -155,7 +155,7 @@ export default function EmailVerificationClient() {
           <div className="items-left flex flex-col space-y-3 px-4 py-6 pt-8 sm:px-12">
             <Link href="https://www.papermark.com" target="_blank">
               <img
-                src="/_static/papermark-logo.svg"
+                src="/_static/logo.svg"
                 alt="Papermark Logo"
                 className="-mt-8 mb-36 h-7 w-auto self-start sm:mb-32 md:mb-48"
               />
@@ -262,7 +262,7 @@ export default function EmailVerificationClient() {
 
           <p className="mt-10 w-full max-w-md px-4 text-xs text-muted-foreground sm:px-12">
             By clicking continue, you acknowledge that you have read and agree
-            to Papermark&apos;s{" "}
+            to PVYdataroom&apos;s{" "}
             <a
               href={`${process.env.NEXT_PUBLIC_MARKETING_URL}/terms`}
               target="_blank"
@@ -304,7 +304,7 @@ function TestimonialSection() {
             <div className="mb-4 h-64 w-80">
               <img
                 className="h-full w-full rounded-2xl object-cover shadow-2xl"
-                src="/_static/testimonials/backtrace.jpeg"
+                src="/_static/testimonials/matterhorn.jpeg"
                 alt="Backtrace Capital"
               />
             </div>
@@ -312,16 +312,18 @@ function TestimonialSection() {
             <div className="max-w-xl text-center">
               <blockquote className="text-balance font-normal leading-8 text-white sm:text-xl sm:leading-9">
                 <p>
-                  &quot;We raised our €30M Fund with Papermark Data Rooms. Love
-                  the customization, security and ease of use.&quot;
+                  &quot;PVY.swiss just did for the Cloud what Apple did for the Desktop
+                  and later for the Smartphone. It&apos;s an ease of use Corporate Solution for Web,
+                  Desktop & Mobile, streamlines your Workflows with the confidence of Trust, 
+                  that your data and intellectual property is not being harvested. &quot;
                 </p>
               </blockquote>
               <figcaption className="mt-4">
                 <div className="text-balance font-normal text-white">
-                  Michael Münnix
+                  Dolores Castillo
                 </div>
                 <div className="text-balance font-light text-gray-400">
-                  Partner, Backtrace Capital
+                  CEO, ABZonline, Traducción y Documentación S.L.U. 
                 </div>
               </figcaption>
             </div>
@@ -332,7 +334,7 @@ function TestimonialSection() {
             style={{ height: "33.3333%" }}
           >
             <div className="mb-4 max-w-xl text-balance text-center font-semibold text-gray-900">
-              Trusted by teams at
+              PVY.swiss Core Apps (50+)
             </div>
             <LogoCloud />
           </div>

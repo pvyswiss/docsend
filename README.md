@@ -1,6 +1,6 @@
 <div align="center">
-  <h1 align="center">Papermark</h1>
-  <h3>The open-source DocSend alternative.</h3>
+  <h1 align="center">PVYdataroom</h1>
+  <h3>Based on the Papermark open-source DocSend alternative.</h3>
 
 <a target="_blank" href="https://www.producthunt.com/posts/papermark-3?utm_source=badge-top-post-badge&amp;utm_medium=badge&amp;utm_souce=badge-papermark"><img src="https://api.producthunt.com/widgets/embed-image/v1/top-post-badge.svg?post_id=411605&amp;theme=light&amp;period=daily" alt="Papermark - The open-source DocSend alternative | Product Hunt" style="width:250px;height:40px"></a>
 
@@ -29,9 +29,8 @@ Papermark is the open-source document-sharing alternative to DocSend, featuring 
 - **Analytics:** Gain insights through document tracking and soon page-by-page analytics.
 - **Self-hosted, Open-source:** Host it yourself and customize it as needed.
 
-## Demo
-
-![Papermark Welcome GIF](.github/images/papermark-welcome.gif)
+## Notice
+We use this only for internal use. We do not generate a Offer out of this project for PVY.swiss @Cloud Users. If we do, we have to plan it and talk to the Project Owner (Single Man Show, everything was Coded by AI.) The Project got Dockerized using AI from Andre. With own Resend and TinyBird API Key, Built-in Posthog (including Video Session Analytics has been stripped out entirely, Stripe Plans Signups are kept in Route/UI but not being used.
 
 ## Tech Stack
 

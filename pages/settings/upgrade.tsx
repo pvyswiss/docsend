@@ -668,7 +668,7 @@ export default function UpgradePage() {
           target="_blank"
           className="text-sm text-muted-foreground underline-offset-4 hover:text-foreground hover:underline"
         >
-          Looking for Papermark Enterprise?
+          Looking for PVYdataroom Enterprise?
         </a>
       </div>
     </div>

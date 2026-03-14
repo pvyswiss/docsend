@@ -32,7 +32,7 @@ const DataRoomsInformationEmail = () => {
             </Text>
             <Text className="text-sm">Unlimited branded data rooms!</Text>
             <Text className="text-sm">
-              With Papermark Data Rooms plan you can:
+              With PVYdataroom Data Rooms plan you can:
             </Text>
             <ul className="list-inside list-disc text-sm">
               <li>Share data rooms with one link</li>

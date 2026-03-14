@@ -45,7 +45,7 @@ export default function CustomDomainSetup({
   return (
     <Html>
       <Head />
-      <Preview>Your Papermark custom domain set up</Preview>
+      <Preview>Your PVYdataroom custom domain set up</Preview>
       <Tailwind>
         <Body className="mx-auto my-auto bg-white font-sans">
           <Container className="mx-auto my-10 w-[465px] p-5">
@@ -83,8 +83,8 @@ export default function CustomDomainSetup({
             </Text>
             <ol className="list-inside list-decimal text-sm">
               <li>Choose your subdomain (e.g. docs.yourcompany.com)</li>
-              <li>Add a CNAME record pointing to papermark.com</li>
-              <li>Configure the domain in your Papermark settings</li>
+              <li>Add a CNAME record pointing to dataroom.pvy.swiss</li>
+              <li>Configure the domain in your PVYdataroom settings</li>
               <li>Start sharing with your branded domain!</li>
             </ol>
 

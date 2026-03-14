@@ -203,7 +203,7 @@ export function DealflowPopup() {
           <>
             <div className="mb-4 flex items-start justify-between">
               <div>
-                <h3 className="text-lg font-semibold">What do you use Papermark for?</h3>
+                <h3 className="text-lg font-semibold">What do you use PVYdataroom for?</h3>
                
               </div>
               <button
@@ -261,7 +261,7 @@ export function DealflowPopup() {
             </div>
 
             <p className="mt-3 text-xs text-muted-foreground">
-              This will help us tailor your Papermark experience
+              This will help us tailor your PVYdataroom experience
             </p>
           </>
         ) : step === 2 ? (
@@ -294,7 +294,7 @@ export function DealflowPopup() {
             </div>
 
             <p className="mt-3 text-xs text-muted-foreground">
-              This will help us tailor your Papermark experience
+              This will help us tailor your PVYdataroom experience
             </p>
           </>
         ) : (

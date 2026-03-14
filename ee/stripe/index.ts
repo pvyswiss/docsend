@@ -47,7 +47,7 @@ export async function cancelSubscription(
     return await stripe.subscriptions.update(subscriptionId, {
       cancel_at_period_end: true,
       cancellation_details: {
-        comment: "Customer deleted their Papermark instance.",
+        comment: "Customer deleted their PVYdataroom instance.",
       },
     });
   } catch (error) {

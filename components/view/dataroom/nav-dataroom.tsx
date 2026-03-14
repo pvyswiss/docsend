@@ -20,7 +20,7 @@ import { Button } from "../../ui/button";
 import { ConversationSidebar } from "../conversations/sidebar";
 import { ViewerDownloadProgressModal } from "./viewer-download-progress-modal";
 
-const DEFAULT_BANNER_IMAGE = "/_static/papermark-banner.png";
+const DEFAULT_BANNER_IMAGE = "/_static/banner.png";
 
 export default function DataroomNav({
   allowDownload,

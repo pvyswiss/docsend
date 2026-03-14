@@ -1,5 +1,6 @@
 /** @type {import('next').NextConfig} */
 const nextConfig = {
+  output: "standalone",
   reactStrictMode: true,
   pageExtensions: ["js", "jsx", "ts", "tsx", "mdx"],
   transpilePackages: ["@boxyhq/saml-jackson"],
@@ -22,7 +23,7 @@ const nextConfig = {
         has: [
           {
             type: "host",
-            value: process.env.NEXT_PUBLIC_APP_BASE_HOST,
+            value: process.env.NEXT_PUBLIC_APP_BASE_HOST || "",
           },
         ],
       },
@@ -133,7 +134,7 @@ const nextConfig = {
         has: [
           {
             type: "host",
-            value: process.env.NEXT_PUBLIC_WEBHOOK_BASE_HOST,
+            value: process.env.NEXT_PUBLIC_WEBHOOK_BASE_HOST || "",
           },
         ],
         headers: [
