@@ -1,10 +1,10 @@
 import { ffmpeg } from "@trigger.dev/build/extensions/core";
 import { prismaExtension } from "@trigger.dev/build/extensions/prisma";
 import { pythonExtension } from "@trigger.dev/python/extension";
-import { defineConfig, timeout } from "@trigger.dev/sdk/v3";
+import { defineConfig, timeout } from "@trigger.dev/sdk";
 
 export default defineConfig({
-  project: "proj_pnixptzcnsbowvedrhqj",
+  projectRef: "proj_pnixptzcnsbowvedrhqj",
   dirs: ["./lib/trigger", "./ee/features/ai/lib/trigger"],
   maxDuration: timeout.None, // no max duration
   retries: {
